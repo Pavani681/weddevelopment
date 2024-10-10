@@ -1,0 +1,74 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #0073e6;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.about, .qualities, .gallery {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #0073e6;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.qualities ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.qualities li {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+}
+
+.person-img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #666;
+}
