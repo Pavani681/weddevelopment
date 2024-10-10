@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4682b4;
+    color: white;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fdf5e6;
+    border-radius: 10px;
+}
+
+#qualities {
+    margin-bottom: 40px;
+}
+
+img.photo {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4682b4;
+    color: white;
+    font-style: italic;
+}
